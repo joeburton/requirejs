@@ -1,9 +1,12 @@
 $(".load-data").on('click', function(){
 
-	var context = this;
+	require(['getcontacts'], function () {
+    	console.log('get the get contacts module');
+	});
 
-	console.log(context, window);
-
-	require(["getcontacts"]);
+	require(["shirt", "logger"],function (shirt, logger) {    
+	    alert("Shirt color is: " + shirt.color + " Shirt size is: " + shirt.size);
+	    logger.logTheShirt();
+	});
 
 });

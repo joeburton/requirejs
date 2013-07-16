@@ -1,9 +1,11 @@
 
 scripts/main.js
 ----------------
-scripts/jquery.alpha.js
 scripts/getcontacts.js
+scripts/shirt.js
+scripts/logger.js
 scripts/utils.js
+scripts/jquery.alpha.js
 scripts/jquery.beta.js
 scripts/jquery.omega.js
 scripts/main.js
